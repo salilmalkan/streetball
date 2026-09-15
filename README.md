@@ -2,9 +2,11 @@
 
 Mobile-first score-attack streetball roguelike prototype (Vite + TypeScript).
 
-## Play
+## Play now
 
-Local:
+**https://salilmalkan.github.io/streetball/**
+
+## Local
 
 ```bash
 npm install
@@ -19,11 +21,11 @@ Open the Network URL on your iPhone (same Wi-Fi).
 2. Optionally spend **Hype** to spike the score.
 3. **Commit** — clear the court target within 8 possessions.
 4. Draft a player or crew piece between waves.
-5. Survive 3 waves. High scores welcome.
+5. Survive 3 waves. Chase big scores.
 
-## Deploy
+## Deploy Pages
 
 ```bash
-npm run build
-npx vercel --prod
+GH_PAGES=1 npm run build
+# then publish dist/ to the gh-pages branch
 ```
